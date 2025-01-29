@@ -1,9 +1,12 @@
 channels:
   - conda-forge
+  - defaults  # Explicitly adding 'defaults' to remove the warning
+
 dependencies:
   - rdkit
   - streamlit
   - pandas
   - numpy
+  - pip  # Ensure pip is explicitly listed
   - pip:
-    - stmol
+      - stmol  # List pip packages under 'pip' section
