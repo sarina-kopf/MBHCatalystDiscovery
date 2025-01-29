@@ -1,5 +1,7 @@
 streamlit
 rdkit -c conda-forge
+nox -c rdkit
+cairo -c rdkit
 pandas
 numpy
 stmol
