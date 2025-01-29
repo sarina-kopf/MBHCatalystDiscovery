@@ -3,3 +3,4 @@ rdkit -c conda-forge
 pandas
 numpy
 stmol
+ipython_genutils==0.1.0
