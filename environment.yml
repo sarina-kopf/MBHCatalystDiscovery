@@ -1,0 +1,10 @@
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - rdkit
+  - streamlit
+  - pandas
+  - numpy
+  - pip:
+    - stmol
