@@ -122,7 +122,7 @@ with colb:
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
         st.error('INVALID MOLECULE', icon="🚨")
-    #st.image(Draw.MolToImage(mol, size=(500,500)), width = 400)
+    st.image(Draw.MolToImage(mol, size=(500,500)), width = 400)
 
 with st.expander("CF3 Geometries", expanded = True):
     # 3D coordinates
