@@ -1,6 +1,6 @@
 import streamlit as st
 from rdkit import Chem
-#from rdkit.Chem import Draw
+from rdkit.Chem import Draw
 from stmol import showmol
 import py3Dmol
 from pathlib import Path
@@ -123,7 +123,7 @@ with colb:
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
         st.error('INVALID MOLECULE', icon="🚨")
-    #st.image(Draw.MolToImage(mol, size=(500,500)), width = 400)
+    st.image(Draw.MolToImage(mol, size=(500,500)), width = 400)
 
 with st.expander("CF3 Geometries", expanded = True):
     # 3D coordinates
