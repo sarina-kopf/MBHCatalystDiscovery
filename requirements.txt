@@ -3,3 +3,4 @@ pandas
 numpy
 stmol
 rdkit
+ipython_genutils
