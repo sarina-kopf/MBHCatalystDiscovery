@@ -38,9 +38,9 @@ def visualize_3D(xyzstring, w, h, ts=False, no2 = False):
         {'sphere': {'colorscheme': 'cyanCarbon', 'scale': 0.25}, 'stick': {'colorscheme': 'cyanCarbon'}}
     )
     if no2:
-        end = 35
+        end = 34
     else:
-        end = 36
+        end = 34
     if ts:    # Custom style for atoms 1-35 (gray with alpha of 0.5)
         for atom_idx in range(1, end):  # Atoms 1-35 (py3Dmol uses 1-based indexing)
             xyzview.setStyle(
