@@ -2,3 +2,4 @@ streamlit
 rdkit
 pandas
 numpy
+stmol
