@@ -1,4 +1,3 @@
-name: myenv
 channels:
   - conda-forge
 dependencies:
